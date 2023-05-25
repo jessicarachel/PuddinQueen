@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A6DD5742A1F2D3900A557D0 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DD5732A1F2D3900A557D0 /* Globals.swift */; };
+		2A6DD5762A1FA1D000A557D0 /* Itty Bitty.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2A6DD5752A1FA1D000A557D0 /* Itty Bitty.mp3 */; };
+		2A6DD5782A1FA9C300A557D0 /* Vibe Mountain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2A6DD5772A1FA9C300A557D0 /* Vibe Mountain.mp3 */; };
+		2A6DD57E2A1FCFFF00A557D0 /* Jump Sound Effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2A6DD57C2A1FCFFF00A557D0 /* Jump Sound Effect.mp3 */; };
+		2A6DD57F2A1FCFFF00A557D0 /* Cartoon punch sound effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2A6DD57D2A1FCFFF00A557D0 /* Cartoon punch sound effect.mp3 */; };
+		2AB344352A18972800DABEA7 /* PuddingQueenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB344342A18972800DABEA7 /* PuddingQueenApp.swift */; };
+		2AB344372A18972800DABEA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB344362A18972800DABEA7 /* ContentView.swift */; };
+		2AB344392A18972900DABEA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AB344382A18972900DABEA7 /* Assets.xcassets */; };
+		2AB3443C2A18972900DABEA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AB3443B2A18972900DABEA7 /* Preview Assets.xcassets */; };
+		2AB344472A18B25000DABEA7 /* StartScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2AB344462A18B25000DABEA7 /* StartScene.sks */; };
+		2AB344492A18B55E00DABEA7 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB344482A18B55E00DABEA7 /* GameScene.swift */; };
+		2AB3444B2A1B4FE600DABEA7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2AB3444A2A1B4FE600DABEA7 /* GameScene.sks */; };
+		2AB3444D2A1B689E00DABEA7 /* Pudding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB3444C2A1B689E00DABEA7 /* Pudding.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A6DD56A2A1F185100A557D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2A6DD5732A1F2D3900A557D0 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		2A6DD5752A1FA1D000A557D0 /* Itty Bitty.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Itty Bitty.mp3"; sourceTree = "<group>"; };
+		2A6DD5772A1FA9C300A557D0 /* Vibe Mountain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Vibe Mountain.mp3"; sourceTree = "<group>"; };
+		2A6DD57C2A1FCFFF00A557D0 /* Jump Sound Effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Jump Sound Effect.mp3"; path = "../../../../../../../Downloads/Jump Sound Effect.mp3"; sourceTree = "<group>"; };
+		2A6DD57D2A1FCFFF00A557D0 /* Cartoon punch sound effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Cartoon punch sound effect.mp3"; path = "../../../../../../../Downloads/Cartoon punch sound effect.mp3"; sourceTree = "<group>"; };
+		2AB344312A18972800DABEA7 /* PuddingQueen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuddingQueen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB344342A18972800DABEA7 /* PuddingQueenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuddingQueenApp.swift; sourceTree = "<group>"; };
+		2AB344362A18972800DABEA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2AB344382A18972900DABEA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AB3443B2A18972900DABEA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2AB344462A18B25000DABEA7 /* StartScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StartScene.sks; sourceTree = "<group>"; };
+		2AB344482A18B55E00DABEA7 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		2AB3444A2A1B4FE600DABEA7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		2AB3444C2A1B689E00DABEA7 /* Pudding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pudding.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AB3442E2A18972800DABEA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A6DD5792A1FCF6A00A557D0 /* Song + Sound Effect */ = {
+			isa = PBXGroup;
+			children = (
+				2A6DD57D2A1FCFFF00A557D0 /* Cartoon punch sound effect.mp3 */,
+				2A6DD57C2A1FCFFF00A557D0 /* Jump Sound Effect.mp3 */,
+				2A6DD5772A1FA9C300A557D0 /* Vibe Mountain.mp3 */,
+				2A6DD5752A1FA1D000A557D0 /* Itty Bitty.mp3 */,
+			);
+			path = "Song + Sound Effect";
+			sourceTree = "<group>";
+		};
+		2AB344282A18972800DABEA7 = {
+			isa = PBXGroup;
+			children = (
+				2AB344332A18972800DABEA7 /* PuddingQueen */,
+				2AB344322A18972800DABEA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AB344322A18972800DABEA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AB344312A18972800DABEA7 /* PuddingQueen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AB344332A18972800DABEA7 /* PuddingQueen */ = {
+			isa = PBXGroup;
+			children = (
+				2A6DD56A2A1F185100A557D0 /* Info.plist */,
+				2AB344342A18972800DABEA7 /* PuddingQueenApp.swift */,
+				2AB344362A18972800DABEA7 /* ContentView.swift */,
+				2A6DD5792A1FCF6A00A557D0 /* Song + Sound Effect */,
+				2AB344482A18B55E00DABEA7 /* GameScene.swift */,
+				2A6DD5732A1F2D3900A557D0 /* Globals.swift */,
+				2AB3444C2A1B689E00DABEA7 /* Pudding.swift */,
+				2AB344382A18972900DABEA7 /* Assets.xcassets */,
+				2AB344462A18B25000DABEA7 /* StartScene.sks */,
+				2AB3444A2A1B4FE600DABEA7 /* GameScene.sks */,
+				2AB3443A2A18972900DABEA7 /* Preview Content */,
+			);
+			path = PuddingQueen;
+			sourceTree = "<group>";
+		};
+		2AB3443A2A18972900DABEA7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2AB3443B2A18972900DABEA7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AB344302A18972800DABEA7 /* PuddingQueen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AB3443F2A18972900DABEA7 /* Build configuration list for PBXNativeTarget "PuddingQueen" */;
+			buildPhases = (
+				2AB3442D2A18972800DABEA7 /* Sources */,
+				2AB3442E2A18972800DABEA7 /* Frameworks */,
+				2AB3442F2A18972800DABEA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PuddingQueen;
+			productName = PuddingQueen;
+			productReference = 2AB344312A18972800DABEA7 /* PuddingQueen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AB344292A18972800DABEA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2AB344302A18972800DABEA7 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 2AB3442C2A18972800DABEA7 /* Build configuration list for PBXProject "PuddingQueen" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AB344282A18972800DABEA7;
+			productRefGroup = 2AB344322A18972800DABEA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AB344302A18972800DABEA7 /* PuddingQueen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AB3442F2A18972800DABEA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A6DD5782A1FA9C300A557D0 /* Vibe Mountain.mp3 in Resources */,
+				2A6DD57E2A1FCFFF00A557D0 /* Jump Sound Effect.mp3 in Resources */,
+				2A6DD5762A1FA1D000A557D0 /* Itty Bitty.mp3 in Resources */,
+				2AB3444B2A1B4FE600DABEA7 /* GameScene.sks in Resources */,
+				2AB344472A18B25000DABEA7 /* StartScene.sks in Resources */,
+				2AB3443C2A18972900DABEA7 /* Preview Assets.xcassets in Resources */,
+				2A6DD57F2A1FCFFF00A557D0 /* Cartoon punch sound effect.mp3 in Resources */,
+				2AB344392A18972900DABEA7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AB3442D2A18972800DABEA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB344492A18B55E00DABEA7 /* GameScene.swift in Sources */,
+				2AB344372A18972800DABEA7 /* ContentView.swift in Sources */,
+				2AB344352A18972800DABEA7 /* PuddingQueenApp.swift in Sources */,
+				2A6DD5742A1F2D3900A557D0 /* Globals.swift in Sources */,
+				2AB3444D2A1B689E00DABEA7 /* Pudding.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2AB3443D2A18972900DABEA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2AB3443E2A18972900DABEA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AB344402A18972900DABEA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PuddingQueen/Preview Content\"";
+				DEVELOPMENT_TEAM = 85KB4TP9CK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PuddingQueen/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Puddin Queen";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jessicarachel.PuddingQueen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AB344412A18972900DABEA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PuddingQueen/Preview Content\"";
+				DEVELOPMENT_TEAM = 85KB4TP9CK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PuddingQueen/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Puddin Queen";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jessicarachel.PuddingQueen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AB3442C2A18972800DABEA7 /* Build configuration list for PBXProject "PuddingQueen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB3443D2A18972900DABEA7 /* Debug */,
+				2AB3443E2A18972900DABEA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AB3443F2A18972900DABEA7 /* Build configuration list for PBXNativeTarget "PuddingQueen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB344402A18972900DABEA7 /* Debug */,
+				2AB344412A18972900DABEA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AB344292A18972800DABEA7 /* Project object */;
+}
